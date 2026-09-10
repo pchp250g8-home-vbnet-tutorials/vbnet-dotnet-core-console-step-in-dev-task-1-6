@@ -1,0 +1,7 @@
+You need to paint a fence N meters long. One can of paint covers K meters.
+Calculate how many cans of paint you'll need and how much you'll have to pay for the paint,
+if the price of one can is C rubles. Enter the data in the following order: N, then K, then C.
+
+Тебе надо покрасить забор длиной N метров. Одной банки краски хватает на K метров.
+Вычисли, сколько банок краски понадобится, и сколько денег придётся заплатить за краску,
+если цена одной банки равна C рублей. Данные вводятся в следующем порядке: N, потом K, потом C. 
