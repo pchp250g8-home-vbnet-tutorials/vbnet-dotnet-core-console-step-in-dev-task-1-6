@@ -11,7 +11,7 @@ Module Program
         UInteger.TryParse(Console.ReadLine(), k)
         Console.Write("Price of one can of paint (in rubles): ")
         UInteger.TryParse(Console.ReadLine(), c)
-        Dim b As UInteger = n \ k + n Mod k ' Number Of cans Of paint For the entire length Of the fence
+        Dim b As UInteger = Math.Ceiling(n / k) ' Number Of cans Of paint For the entire length Of the fence
         Dim p As UInteger = b * c ' Cost Of all cans Of paint For the entire fence
         ' -- Display information on the screen --
         Console.WriteLine($"{b} cans of paint are needed for {n} meters of fence.")

@@ -11,7 +11,7 @@ Module Program
         UInteger.TryParse(Console.ReadLine(), k)
         Console.Write("Цена одной банки краски (в рублях): ")
         UInteger.TryParse(Console.ReadLine(), c)
-        Dim b As UInteger = n \ k + n Mod k ' Количество банок краски на всю длину забора
+        Dim b As UInteger = Math.Ceiling(n / k) ' Количество банок краски на всю длину забора
         Dim p As UInteger = b * c ' Стоимость всех банок краски для всего забора
         ' -- Вывод информации на экран --
         Console.WriteLine($"На {n} метров забора нужно {b} банок(и) краски.")
